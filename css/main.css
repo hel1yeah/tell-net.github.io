@@ -1,0 +1,156 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+header {
+	background: url(../img/matrica.jpg) no-repeat center top /cover;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+div {
+	box-sizing: border-box;
+}
+
+.fix_border {
+	
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
+.logo {
+	margin-top: 85px;
+	margin-bottom:85px;
+	float: right;
+}
+
+.title_first {
+	float: left;
+	margin-top: 200px;
+	text-align: center;
+}
+.title_first h1 {
+	font-size: 60px;
+	margin-bottom: 5px;
+}
+.title_first p {
+	color: #9ED7FB;
+	font-size: 25px;
+	margin-top: 5px;
+}
+nav {
+	float:right;
+}
+.menu {
+	padding: 0px;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 20px;
+	margin-top: 25px;
+	font-size: 20px;
+}
+.menu a {
+ 	color: #ffffff;
+ 	text-decoration: none;
+ }
+.title {
+	font-size: 30px;
+	text-align: center;
+}
+.title h2 {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	margin: 0;
+	
+}
+.page_bg {
+	background: url(../img/minimalizm.jpg) no-repeat center top / cover;
+	height: 100%;
+}
+.test_img img {
+	float: left;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+.test_text {
+	float: left;
+	text-align: left;
+	margin-left: 5px;
+}
+.test_text h1{
+	color: #1C1B1B;
+	font-size: 20px;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+.test_text p {
+	color: #363433;
+	font-size: 16px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.test_img_R img {
+	float: right;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+.test_text_R {
+	float: right;
+	text-align: right;
+	margin-right: 5px;
+
+}
+.test_text_R h1{
+	color: #1C1B1B;
+	font-size: 20px;
+	margin-top:13px;
+	margin-bottom:5px;
+}
+.test_text_R p {
+	color: #363433;
+	font-size: 16px;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+footer {
+	margin:0px; 
+	padding:0px;
+	background-color:#676665;
+	}
+.contact h1{
+	margin-top: 5px 0px 0px 0px;
+	font-size: 15px;
+	float: left;
+}
+.colortext {
+	color: #FF4D00;
+}
+.contact h2{
+	padding: 0px;
+	margin-top: 22px;
+	font-size: 10px;
+	float: right;
+}
+html {
+  scroll-behavior: smooth;
+}
+#arrow {
+	position : fixed;
+	bottom: 10px;
+	left: 10px;
+}
+
